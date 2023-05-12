@@ -1,0 +1,41 @@
+.hero {
+    background-color: #1f2937;
+}
+
+.headerbar {
+    display: flex;
+    justify-content: space-around   ;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.heroMain {
+    display: flex;
+}
+.heroLeft {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+ul {
+    list-style: none;
+    gap: 10px;
+}
+li {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    
+}
