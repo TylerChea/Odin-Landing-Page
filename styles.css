@@ -1,20 +1,16 @@
-
-
 .hero {
     background-color: #1f2937;
     height: 500px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
 }
-.container {
-  
-    
-}
+
 .headerbar {
     display: flex;
-    justify-content: space-around   ;
+    justify-content: space-between;
     align-items: center;
+    margin: 0px 10px
 }
 .nav {
     display: flex;
@@ -29,17 +25,29 @@
     display: flex;
     max-width: 960px;
     align-self: center;
+    gap: 10px;
 }
-.heroLeft {
-    font-size: 30   px;
+.heroLeft h1 {
+    font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    text-align: left;
-
+}
+h1, p {
+    margin: 10px;
 }
 .heroLeft p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #b9bcc2;
+}
+button {
+    margin: 10px;
+    background-color: #3882f6;
+    padding: 10px 25px;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
 }
 a {
     text-decoration: none;
