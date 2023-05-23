@@ -75,13 +75,29 @@ h2 {
 .imgtext img {
     border-radius: 25px;
 }
-
-
-
-
-
-
 /* End Section 2 */
+
+/* Start Section 3 */
+.quotecontainer {
+    background-color: #E5E7EB;
+
+}
+.quote {
+        max-width: 600px;
+        margin: 0px auto;
+        padding: 100px;
+}
+.quote p {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+.quote h3 {
+    text-align: end;
+}
+
+/* End Section 3 */
+
 a {
     text-decoration: none;
     color: grey;
