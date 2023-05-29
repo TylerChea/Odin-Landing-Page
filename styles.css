@@ -56,12 +56,14 @@ button {
 /* Section 2: Information */
 .infoContainer {
     text-align: center;
+    height: 500px;
 }
 
 h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding-bottom: 20px;
 }
 
 .images {
@@ -98,6 +100,41 @@ h2 {
 
 /* End Section 3 */
 
+/* Start Section 4 */
+.actioncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+
+}
+.actionbox {
+    background-color: #3882f6;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    gap: 100px;
+    border-radius: 15px;
+
+}
+.textbox {
+    text-align: left;
+}
+.textbox h3, .textbox p {
+    margin: 0;
+    color: white;
+}
+
+.actionbox button {
+    border: 1px solid white;
+    padding: 0px 30px;
+    margin: 0;
+
+}
+
+
+
+/* End Section 4 */
 a {
     text-decoration: none;
     color: grey;
